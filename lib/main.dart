@@ -10,7 +10,7 @@ FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
 
 const AndroidNotificationChannel channel = AndroidNotificationChannel(
     'pushid', // id
-    'High Importance ', //title
+    'Channel Name ', //title
     description: "Nothing ",
     importance: Importance.max,
     playSound: true);
